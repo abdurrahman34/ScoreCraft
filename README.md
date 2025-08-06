@@ -29,10 +29,7 @@ XGBoost modelinin eğitilmesi, değerlendirilmesi ve görselleştirilmesi işlem
 ### 7. train_random_forest.py
 Random Forest modelinin eğitilmesi, değerlendirilmesi ve görselleştirilmesi işlemlerini gerçekleştirir. Model performans metrikleri hesaplanır ve özellik önemleri belirlenir. Sonuçlar görsel olarak kaydedilir.
 
-### 8. compare_models.py
-Eğitilen tüm modellerin (Lojistik Regresyon, XGBoost, Random Forest) performanslarını karşılaştırır ve görselleştirir. Modellerin ROC eğrileri, karmaşıklık matrisleri ve performans metrikleri karşılaştırmalı olarak sunulur.
-
-### 9. model_summary.py
+### 8. model_summary.py
 Tüm modellerin performans özetini ve en önemli özelliklerini CSV dosyalarına kaydeder. Her model için doğruluk, kesinlik, duyarlılık, F1 skoru ve ROC AUC değerleri ile en önemli 3 özellik listelenir.
 
 ## Kurulum ve Çalıştırma
@@ -57,8 +54,7 @@ imbalanced-learn
 5. `train_logistic_regression.py` - Lojistik Regresyon modeli eğitimi
 6. `train_xgboost.py` - XGBoost modeli eğitimi
 7. `train_random_forest.py` - Random Forest modeli eğitimi
-8. `compare_models.py` - Model karşılaştırması
-9. `model_summary.py` - Model özeti ve özellik önem analizi
+8. `model_summary.py` - Model özeti ve özellik önem analizi
 
 ## Sonuçlar
 Proje sonucunda, kredi geri ödeme olasılığını tahmin etmek için en iyi performansı gösteren model belirlenmiştir. Model performans metrikleri ve özellik önemleri, `model_performance_summary.csv` ve `top_features_summary.csv` dosyalarında kaydedilmiştir. Ayrıca, her model için karmaşıklık matrisi, ROC eğrisi ve özellik önem grafikleri görsel olarak kaydedilmiştir.
