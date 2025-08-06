@@ -1,5 +1,5 @@
 # Home Credit Default Risk Projesi
-# ABDURRAHMAN DOGRU - AI Engineer - 221401007
+## ABDURRAHMAN DOGRU - AI Engineer - 221401007
 ## Proje Hakkında
 Bu proje, Home Credit Default Risk veri seti üzerinde kredi geri ödeme olasılığını tahmin etmek için çeşitli makine öğrenimi modelleri geliştirmeyi amaçlamaktadır. Proje, veri ön işleme, özellik mühendisliği, sınıf dengesizliği düzeltme ve model eğitimi/değerlendirme adımlarını içermektedir.
 
